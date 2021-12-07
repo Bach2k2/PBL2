@@ -1,0 +1,31 @@
+ID | Bill's Name |  BeginDate |  EndDate  	 |Customer's Id	 |Customer's Namet| Address	 | PhoneNumber	| Unit	| Cost 
+100 	 	| TienDienThang4 	 	|1/04/2020 	 	|30/04/2020 	 	|12	 	|Le Van Ha1	 	|Thanh Khe	 	|0903219882	 	|100	 	|187660
+
+101 	 	| TienDienThang4 	 	|1/04/2020 	 	|30/04/2020 	 	|13	 	|Le Van Ha	 	|Thanh Khe	 	|0903219880	 	|110	 	|209814
+
+102 	 	| TienDienThang4 	 	|1/04/2020 	 	|30/04/2020 	 	|18	 	|Le Van Hau	 	|Thanh Khe	 	|0903214462	 	|120	 	|231968
+
+103 	 	| TienDienThang6 	 	|1/06/2021 	 	|30/06/2021 	 	|1	 	|NguyenVanA	 	|LienChieu	 	|0123456***	 	|150	 	|298430
+
+104 	 	| TienDienThang6 	 	|1/06/2021 	 	|30/06/2021 	 	|3	 	|NguyenVanB	 	|ThanhKhe	 	|0223356***	 	|250	 	|548680
+
+105 	 	| TienDienThang7 	 	|1/07/2021 	 	|30/07/2021 	 	|3	 	|NguyenVanB	 	|ThanhKhe	 	|0323456***	 	|130	 	|254122
+
+106 	 	| TienDienThang7 	 	|1/07/2021 	 	|30/07/2021 	 	|5	 	|NguyenVanC	 	|LienChieu	 	|0421456***	 	|220	 	|464992
+
+107 	 	| TienDienThang8 	 	|1/08/2021 	 	|30/08/2021 	 	|6	 	|NguyenVanC	 	|NguHanhSon	 	|0523456***	 	|160	 	|320584
+
+108 	 	| TienDienThang8 	 	|1/08/2021 	 	|30/08/2021 	 	|7	 	|NguyenVanD	 	|SonTra	 	|0623456***	 	|240	 	|520784
+
+109 	 	| TienDienThang8 	 	|29/07/2021 	 	|30/07/2021 	 	|8	 	|NguyenVanE	 	|LienChieu	 	|0723456***	 	|210	 	|437096
+
+110 	 	| TienDienThang9 	 	|1/09/2021 	 	|30/09/2021 	 	|10	 	|NguyenVanF	 	|SonTra	 	|0883456***	 	|234	 	|504046
+
+111 	 	| TienDienThang1 	 	|1/10/2021 	 	|30/10/2021 	 	|11	 	|NguyenVanG	 	|LienChieu	 	|0923456***	 	|300	 	|688160
+
+112 	 	| TienDienThang1 	 	|1/10/2021 	 	|30/10/2021 	 	|12	 	|NguyenVanI	 	|NguHanhSon	 	|0923456***	 	|200	 	|409200
+
+113 	 	| Abc 	 	|20/10/1111 	 	|20/11/2222 	 	|123	 	|Bach	 	|Hoa Hai	 	|0902123344	 	|1002	 	|2.97061e+006
+
+114 	 	| Lai them 	 	|10202021 	 	|10212021 	 	|176	 	|Huy	 	|Phuoc an	 	|0123456778	 	|11111	 	|3.60634e+007
+

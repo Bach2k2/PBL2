@@ -1,0 +1,10 @@
+TienDienThang6	1/06/2021	 30/06/2021		1		NguyenVanA		LienChieu		0123456***			150		  
+TienDienThang6	1/06/2021	 30/06/2021		3		NguyenVanB		ThanhKhe		0223356***			250		
+TienDienThang7	1/07/2021	 30/07/2021		3		NguyenVanB		ThanhKhe		0323456***			130		
+TienDienThang7	1/07/2021	 30/07/2021		5		NguyenVanC		LienChieu		0421456***			220		
+TienDienThang8	1/08/2021	 30/08/2021		6		NguyenVanC		NguHanhSon		0523456***			160		
+TienDienThang8	1/08/2021	 30/08/2021		7		NguyenVanD		SonTra			0623456***			240		
+TienDienThang8	29/07/2021	 30/07/2021		8		NguyenVanE		LienChieu		0723456***			210		
+TienDienThang9	1/09/2021	 30/09/2021		10		NguyenVanF		SonTra			0883456***			234		
+TienDienThang1	1/10/2021	 30/10/2021		11		NguyenVanG		LienChieu		0923456***			300		
+TienDienThang1	1/10/2021	 30/10/2021		12		NguyenVanI		NguHanhSon		0923456***			200

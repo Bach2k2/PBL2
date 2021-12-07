@@ -1,0 +1,2 @@
+aaaa:
+	g++ Bill.cpp BillService.cpp Customer.cpp Mananger.cpp UnitPrice.cpp -o Manager.exe
