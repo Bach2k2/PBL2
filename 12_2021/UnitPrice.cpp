@@ -109,10 +109,10 @@ void UnitPrice::calculate2()
 }
 void UnitPrice::showUnitPrice()
 {
-	cout<< "Bậc 1: 1.678 - Từ 0 - 50 kWh"
-		<<"\nBậc 2: 1.734 - Từ 51 - 100 kWh"
-		<<"\nBậc 3 : 2.014 - Từ 101 - 200 kWh"
-		<<"\nBậc 4 : 2.536 - Từ 201 - 300 kWh"
-		<<"\nBậc 5 : 2.834 - Từ 301 - 400 kWh"
-		<<"\nBậc 6 : 2.927 - Từ 401 kwh trở lên"<<endl;
+	cout<< "Bậc 1: 1.678 - Từ 0 - 50 kWh" << unitRank[0]
+		<<"\nBậc 2: 1.734 - Từ 51 - 100 kWh"<<unitRank[1]
+		<<"\nBậc 3 : 2.014 - Từ 101 - 200 kWh"<<unitRank[2]
+		<<"\nBậc 4 : 2.536 - Từ 201 - 300 kWh"<<unitRank[3]
+		<<"\nBậc 5 : 2.834 - Từ 301 - 400 kWh"<<unitRank[4]
+		<<"\nBậc 6 : 2.927 - Từ 401 kwh trở lên"<<unitRank[5]<<endl;
 }

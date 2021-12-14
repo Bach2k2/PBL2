@@ -4,11 +4,31 @@
 #include<fstream>
 using namespace std;
 Customer::Customer(string MKH, string customerName, int age, string address, string phoneNum) :
-	MKH(MKH), customerName(customerName), age(age), address(address), phoneNum(phoneNum)
+	customerId(MKH), customerName(customerName), age(age), address(address), phoneNum(phoneNum)
 {
 	this->next = NULL;
 }
 Customer::~Customer() {}
+void Customer::setCustomerId(string customerId)
+{
+	this->customerId = customerId;
+}
+void Customer::setCustomerName(string name){
+	customerName = name;
+}
+void Customer::setAge(int age)
+{
+	this->age = age;
+}
+void Customer::setAddress(string address)
+{
+	this->address = address;
+}
+void Customer::setPhoneNumber(string phoneNum)
+{
+	this->phoneNum = phoneNum;
+}
+// tạo tất cả thông tin
 void Customer::setData()
 {
 	bool check = true;
@@ -67,7 +87,7 @@ void Customer::setData()
 }
 ostream& operator<<(ostream& o, const Customer& cus)
 {
-	o << "Customer:  Ma Khach Hang: " << cus.MKH
+	o << "Customer:  Ma Khach Hang: " << cus.customerId
 		<< ",Ten khach hang: " << cus.customerName
 		<< ", age: " << cus.age
 		<< ", address: " << cus.address
@@ -103,5 +123,6 @@ void Customer::fromString(string str)
 		this->customerName += ' ';
 	}
 	this->customerName = this->customerName.substr(0, customerName.length() - 1);
-	this->MKH = arr[0];
+	this->customerId = arr[0];
 }
+

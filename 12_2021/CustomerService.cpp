@@ -20,7 +20,7 @@ void CustomerService::enqueue()
 		cout << "Nhap MKH" << endl;
 		cin >> MKH;
 	} while (contain(MKH));
-	customer->MKH = MKH;
+	customer->setCustomerId(MKH);
 	customer->setData();
 	if (head == NULL)
 	{
@@ -78,7 +78,6 @@ void CustomerService::dequeue()
 		}
 	}
 }
-
 void CustomerService::display()
 {
 	Customer* temp = head;
@@ -102,7 +101,7 @@ bool CustomerService::contain(string MKH)
 	{
 		do
 		{
-			if ((temp->MKH.compare(MKH)) == 0)return true;
+			if ((temp->getCustomerId().compare(MKH)) == 0)return true;
 			temp = temp->next;
 		} while (temp != head);
 	}
@@ -118,11 +117,10 @@ void CustomerService::showInfoByMkh(string Mkh)
 	{
 		while (temp != NULL)
 		{
-			if (temp->MKH.compare(Mkh) == 0) {
-				cout << "Ten khach hang :" << temp->customerName << endl;
-				cout << "Dia chi: " << temp->address << endl;
-				cout << "So dien thoai" << temp->phoneNum << endl;
-				cout << "Muc dich su dung:" << " Sinh hoat" << endl;
+			if (temp->getCustomerId().compare(Mkh) == 0) {
+				cout << "Ten khach hang :" << temp->getCustomerName() << endl;
+				cout << "Dia chi: " << temp->getAddress()<< endl;
+				cout << "So dien thoai" << temp->getPhoneNumber()<< endl;
 				break;
 			}
 			temp = temp->next;

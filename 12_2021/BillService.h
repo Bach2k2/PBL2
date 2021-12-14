@@ -10,18 +10,20 @@ public:          //BillService
 public:
     BillService();
     ~BillService();
-    void add();
-    void add(Bill* bill);
-    bool isEmpty();
-    void remove();
-    void removeFirst();
-    void removeAll();
-    void update();
-    void display();
-    void search();
-    void readFile(string path);
+    void add();//Thêm nhập từ bàn phím
+    void add(Bill* bill);// Nhận từ file
+    bool isEmpty();// Danh sách có rỗng
+    void remove();// Xóa
+    void removeFirst();//Xóa
+    void removeAll();// Xóa hết
+    void update();  //chưa làm .
+    void display(); // Rồi
+    void search();  // chưa làm đc
+    void readFile(string path); // Đọc file
 
     bool contain(int);
     void calculatePrice();
+
+    void MonthManger();
 };
 
